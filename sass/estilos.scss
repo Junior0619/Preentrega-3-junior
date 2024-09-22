@@ -1,0 +1,128 @@
+@import "footer.scss";
+@import "navbar.scss";
+@import "jumbotron.scss";
+@import "article.scss";
+@import "body.scss";
+
+$color1:bisque;
+$color2:orange;
+$color3:blueviolet;
+$color4:black;
+$color5:aquamarine;
+$color6:#000;
+$color7:#fff;
+
+
+
+body{
+    background-color: $color1;
+}
+
+navbar{
+    background-color: $color2;
+}
+
+.nav-link{
+    color: $color3 !important;
+}
+
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    background-color: $color4;
+    color: $color4;
+    text-align: center !important;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+    color: $color5;
+    text-shadow: 0 0 7px $color4;
+}
+
+.jumbotron{
+    background-image: url(/img.facha/thunder-953118_1280.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h2{
+    margin: 5px;
+    text-align: center;
+    background-color: $color3;
+    padding: 15px;
+    color: $color5;
+    text-shadow: 0 0 7px $color4;
+}
+
+.nleft{
+    background-image: url(/img.facha/planet-7006513_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+}
+
+h3{
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+h4{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h5{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+    padding: 12px;
+}
+
+.nright{
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: $color6;
+    text-align: center;
+    color: $color7;
+    font-size: 21px;
+}
+
+.container-fluid actividades{
+    background-size: cover;
+    background-position: center;
+    height: 10px;
+}
+footer a{
+    color: $color3;
+    font-size: 29px;
+    letter-spacing: 14px;
+    text-decoration: none;
+}
+
+.article{
+    background-size: cover;
+    background-position: center;
+    height: 11px;
+}
+
+
+
+
